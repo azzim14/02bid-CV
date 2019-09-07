@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#home-info {
+  height: 200px;
+  margin: 0px;
+  padding: 20px;
+}
+
+#home-info .info-img {
+  background: url("tosin.png");
+  float: left;
+  background-size: cover;
+  width: 50%;
+  height: 450%;
+  text-decoration: none;
+  border: #ddd 1px solid;
+  border-radius: 4px;
+}
+
+#home-info .info-content {
+  background: linear-gradient(60deg, #6e00db, #cb3f4d);
+  width: 100%;
+  padding: 10px;
+  border: #ddd 1px solid;
+  border-radius: 4px;
+}
+body {
+  background: linear-gradient(60deg, #6e00db, #cb3f4d);
+  font-family: "Montserrat", sans-serif;
+}
+
+table {
+  border: #ddd 1px solid;
+  border-radius: 4px;
+}
